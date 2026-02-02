@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router";
 
-import Landingpage from "./pages/LandingPage.jsx";
+import Landingpage from "./pages/Landingpage.jsx";
 import Form from "./pages/Form.jsx";
 import MainLogin from "./pages/Mainlogin.jsx";
 
