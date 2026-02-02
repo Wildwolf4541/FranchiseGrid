@@ -1,6 +1,7 @@
 # Franchise-Grid
 A MERN Stack, multi-tenant franchise management platform built with React, Node.js, Express, and MongoDB. This system enables franchises to securely manage daily sales, employees, applications, and performance analytics through a modern, JWT-authenticated dashboard.
 
+> Site deployed at- https://franchisegrid.onrender.com/
 ## ✨ Features
 
 🔐 JWT Authentication & Role-Based Access
