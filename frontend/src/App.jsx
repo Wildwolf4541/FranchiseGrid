@@ -1,21 +1,21 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router";
 
-import Landingpage from "./pages/LandingPage";
-import Form from "./pages/Form";
-import MainLogin from "./pages/Mainlogin";
+import Landingpage from "./pages/LandingPage.jsx";
+import Form from "./pages/Form.jsx";
+import MainLogin from "./pages/Mainlogin.jsx";
 
-import Applications from "./pages/Admin/Applications";
-import AppCards from "./pages/Admin/AppCards";
+import Applications from "./pages/Admin/Applications.jsx";
+import AppCards from "./pages/Admin/AppCards.jsx";
 
-import FranchiseRoute from "./components/FDash/FranchiseRoute";
-import MainDash from "./pages/MainDash";
-import Todaysales from "./components/FDash/Todaysales";
-import Saleshistory from "./components/FDash/Saleshistory";
-import Employees from "./components/FDash/Employees";
-import Settings from "./components/FDash/Settings";
+import FranchiseRoute from "./components/FDash/FranchiseRoute.jsx";
+import MainDash from "./pages/MainDash.jsx";
+import Todaysales from "./components/FDash/Todaysales.jsx";
+import Saleshistory from "./components/FDash/Saleshistory.jsx";
+import Employees from "./components/FDash/Employees.jsx";
+import Settings from "./components/FDash/Settings.jsx";
 
-import { useAuthContext } from "./hooks/useAuthContext";
+import { useAuthContext } from "./hooks/useAuthContext.jsx";
 
 function App() {
   const { user } = useAuthContext();
