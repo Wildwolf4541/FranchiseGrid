@@ -15,7 +15,7 @@ import Saleshistory from "./components/FDash/Saleshistory.jsx";
 import Employees from "./components/FDash/Employees.jsx";
 import Settings from "./components/FDash/Settings.jsx";
 
-import { useAuthContext } from "./hooks/useAuthContext.jsx";
+import { useAuthContext } from "./hooks/useAuthContext.js";
 
 function App() {
   const { user } = useAuthContext();
